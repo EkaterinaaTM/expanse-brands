@@ -39,6 +39,10 @@ body {
   font-family: 'Geometria', sans-serif;
   background-color: #0a030f;
   color: #fff;
+  background-image: url('/static/bg.svg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 37px;
 }
 
 .container {
@@ -132,6 +136,7 @@ body {
 
 .brand {
   &__card {
+    cursor: default;
     position: relative;
     width: 293px;
     height: 416px;
