@@ -2,14 +2,34 @@
 <html lang="ru">
 <head>
   <link rel="stylesheet" href="./style/glider.min.css">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/static/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/static/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/static/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/static/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/static/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/static/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/static/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/static/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/static/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Static HTML Site Boilerplate</title>
+  <title>EXPANSE | BRANDS</title>
 </head>
 
 <body>
-  <!-- <div id="dots" class="pa z0 birds"></div> -->
+  <div id="dots" class="pa z0 birds"></div>
+  <canvas id="c" style="width: 100%; height: 100%; position: absolute; z-index: -1;"></canvas>
   <div class="container">
 
     <header class="header">
@@ -83,9 +103,16 @@
   <script src="./js/glider.min.js"></script>
   <script src="./js/three.r92.min.js"></script>
   <script src="./js/vanta.dots.min.js"></script>
+  <!-- <script src="./js/vanta/vanta.dots.js"></script> -->
+
   <script>
     VANTA.DOTS({
-      el: "#dots"
+      el: "#dots",
+      color: 0xa411f5,
+      color2: 0x0a030f,
+      backgroundColor: 0x0a030f,
+      size: 3.20,
+      spacing: 21.00
     })
   </script>
 

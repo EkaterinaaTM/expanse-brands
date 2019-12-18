@@ -55,6 +55,7 @@
   ],
   "dependencies": {
     "glider-js": "^1.7.1",
+    "three": "^0.111.0",
     "vanilla-tilt": "^1.7.0"
   }
 }
