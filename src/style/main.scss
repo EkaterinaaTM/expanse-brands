@@ -137,6 +137,8 @@ body {
 }
 
 .glider {
+  margin-left: -64px;
+  padding-left: 64px;
   @media (max-width: 1303px) {
     margin-right: -64px;
   }
