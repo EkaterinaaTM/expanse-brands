@@ -25,11 +25,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>EXPANSE | BRANDS</title>
+  <!-- <script type="text/javascript" src="./js/dat.gui.min.js"></script> -->
+
 </head>
 
 <body>
-  <!-- <div id="dots" class="pa z0 birds"></div>
-  <canvas id="c" style="width: 100%; height: 100%; position: absolute; z-index: -1;"></canvas> -->
+  
+  <!-- <div id="dots" class="pa z0 birds"></div> -->
+  <!-- <canvas id="c" style="position: absolute; z-index: -1; bottom: 0;"></canvas>  -->
   <div class="container">
 
     <header class="header">
@@ -40,51 +43,51 @@
     <!-- slider -->
     <div class="glider-contain">
       <div class="glider-wrap">
-      <div class="glider">
+        <div class="glider">
 
-        <!-- brand card -->
-        <div class="brand__card" data-tilt data-tilt-max="6" data-tilt-reverse={true}>
-          <p class="brand__card_title text-md">Брендинг</p>
-          <img class="brand__card_brand-type" src="/static/brands.svg" alt="brands">
-          <a href="http://expanse.agency/" target="_blank" class="button">
-          Подробнее
-          <img src="/static/btn-arrow.svg" alt="arrow" />
-          </a>
-        </div> 
+          <!-- brand card -->
+          <div class="brand__card" data-tilt data-tilt-max="6" data-tilt-reverse={true}>
+            <p class="brand__card_title text-md">Брендинг</p>
+            <img class="brand__card_brand-type" src="/static/brands.svg" alt="brands">
+            <a href="http://expanse.agency/" target="_blank" class="button">
+            Подробнее
+            <img src="/static/btn-arrow.svg" alt="arrow" />
+            </a>
+          </div> 
 
-        <!-- systems card -->
-        <div class="brand__card" data-tilt data-tilt-max="6" data-tilt-reverse={true}>
-          <div class="brand__card_title">
-            <p class="text-md">Интерактив</p>
-            <p class="brand__card_subtitle">VR / AR/ Games / Web / Mobile apps</p>
+          <!-- systems card -->
+          <div class="brand__card" data-tilt data-tilt-max="6" data-tilt-reverse={true}>
+            <div class="brand__card_title">
+              <p class="text-md">Интерактив</p>
+              <p class="brand__card_subtitle">VR / AR/ Games / Web / Mobile apps</p>
+            </div>
+            <img class="brand__card_brand-type" src="/static/systems.svg" alt="brands">
+            <a href="https://expanse.systems/" target="_blank" class="button">
+            Подробнее
+            <img src="/static/btn-arrow.svg" alt="arrow" />
+            </a>
           </div>
-          <img class="brand__card_brand-type" src="/static/systems.svg" alt="brands">
-          <a href="https://expanse.systems/" target="_blank" class="button">
-          Подробнее
-          <img src="/static/btn-arrow.svg" alt="arrow" />
-          </a>
-        </div>
 
-        <!-- club card -->
-        <div class="brand__card" data-tilt data-tilt-max="6" data-tilt-reverse={true}>
-          <p class="brand__card_title text-md">Компьютерные клубы / аттракционы</p>
-          <img class="brand__card_brand-type" src="/static/club.svg" alt="brands">
-          <button class="button button--gray">
-            Уже скоро
-          </button>
-        </div>
-      
-        <!-- carwash card -->
-        <div class="brand__card" data-tilt data-tilt-max="6" data-tilt-reverse={true}>
-            <p class="brand__card_title text-md">Автомойка нового поколения</p>
-          <img class="brand__card_brand-type" src="/static/carwash.svg" alt="brands">
-          <button class="button button--gray">
-            Уже скоро
-          </button>
-        </div>
+          <!-- club card -->
+          <div class="brand__card" data-tilt data-tilt-max="6" data-tilt-reverse={true}>
+            <p class="brand__card_title text-md">Компьютерные клубы / аттракционы</p>
+            <img class="brand__card_brand-type" src="/static/club.svg" alt="brands">
+            <button class="button button--gray">
+              Уже скоро
+            </button>
+          </div>
+        
+          <!-- carwash card -->
+          <div class="brand__card" data-tilt data-tilt-max="6" data-tilt-reverse={true}>
+              <p class="brand__card_title text-md">Автомойка нового <br/> поколения</p>
+            <img class="brand__card_brand-type" src="/static/carwash.svg" alt="brands">
+            <button class="button button--gray">
+              Уже скоро
+            </button>
+          </div>
 
-      </div>  <!-- glinder -->
-    </div>
+        </div>  <!-- glinder -->
+      </div> <!-- glider-wrap  -->
     </div> <!-- glider-contain -->
 
     <footer class="footer">
@@ -94,23 +97,7 @@
 
   </div>
   
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script> -->
   <script src="./js/vanilla-tilt.min.js"></script>
-  <script src="./js/glider.min.js"></script>
-  <script src="./js/three.r92.min.js"></script>
-  <script src="./js/vanta.dots.min.js"></script>
-  <!-- <script src="./js/vanta/vanta.dots.js"></script> -->
-
-  <script>
-    VANTA.DOTS({
-      el: "#dots",
-      color: 0xa411f5,
-      color2: 0x0a030f,
-      backgroundColor: 0x0a030f,
-      size: 3.20,
-      spacing: 21.00
-    })
-  </script>
-
+  <!-- <script src="./js/glider.min.js"></script> -->
 </body>
 </html>

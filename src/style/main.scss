@@ -258,6 +258,7 @@ body {
   transform: translateZ(20px);
 
   &--gray {
+    cursor: default;
     justify-content: center;
     color: #999;
   }
