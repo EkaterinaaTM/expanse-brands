@@ -92,7 +92,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-
+  align-items: flex-end;
   &_logo {
     width: 141.66px;
     height: 21.94px;
