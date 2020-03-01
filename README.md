@@ -1,6 +1,6 @@
 <p align="center">
 Заглушка для EXPANSE.BRANDS
-<img src="/static/preview.png">
+<img src="./src/preview.jpg">
 </p>
 # 🚀 Static HTML Webpack Boilerplate
 
