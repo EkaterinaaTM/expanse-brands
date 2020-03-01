@@ -30,7 +30,11 @@ $breakpoint: 650px;
 }
 
 html {
+  overflow-x: hidden;
   height: 100%;
+  @media (max-width: $breakpoint) {
+    height: unset;
+  }
 }
 
 body {
@@ -45,6 +49,9 @@ body {
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 34px;
+  @media (max-width: 420px) {
+    background-position-x: unset;
+  }
 }
 
 .container {
@@ -88,7 +95,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-
+  align-items: flex-end;
   &_logo {
     width: 141.66px;
     height: 21.94px;
@@ -107,32 +114,38 @@ body {
 }
 
 .glider-contain {
-  margin: 32px 0;
+  margin: 64px 0 80px 0;
+  height: 416px;
 }
 
 .glider-slide {
   width: 293px !important;
   height: 416px !important;
+  @media (max-width: $breakpoint) {
+    width: 288px !important;
+  }
 }
 
 .glider-track {
   width: 1172px !important;
   max-width: 1172px !important;
   margin: 0 auto;
+  @media (max-width: $breakpoint) {
+    width: 1272px !important;
+    max-width: 1272px !important;
+  }
 }
 
 .glider {
+  margin-left: -64px;
+  padding-left: 64px;
   @media (max-width: 1303px) {
     margin-right: -64px;
   }
   @media (max-width: $breakpoint) {
     margin-right: -48px;
-  }
-}
-
-.glider {
-  @media (max-width: $breakpoint) {
-    margin-right: 49;
+    margin-left: -24px;
+    padding-left: 24px;
   }
 }
 
